@@ -1,0 +1,99 @@
+.body {
+  width: 100%;
+  left: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.TodoBody {
+  width: 50%;
+  border: 4px dashed #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.TodoBody form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TodoBody form input {
+  padding: 4px;
+  width: 50%;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Indie Flower", arial;
+  border: 2px dashed #000;
+  border-radius: 10px;
+}
+
+.TodoBody form button {
+  margin-left: 10px;
+  text-align: center;
+  padding: 4px;
+  width: 100px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Indie Flower", arial;
+  border: 0px dashed #000;
+  border-radius: 10px;
+  background-color: #ff8000;
+}
+
+.TodoBody form button:hover {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #cc6600;
+}
+
+.TodoBody form button:focus {
+  outline: none;
+}
+
+.TodoBody form input:focus {
+  border: 3px dashed #000;
+  outline: none;
+}
+
+.TodoBody .bodyList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TodoBody .bodyList ul {
+  width: 80%;
+  margin-top: 50px;
+  list-style-type: none;
+}
+
+.TodoBody .bodyList ul .listLine li {
+  width: 90%;
+  padding-left: 10px;
+  border-bottom: 1px dashed #000;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Indie Flower", arial;
+}
+
+.listLine {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listLine svg {
+  color: #b3b3b3;
+}
+
+.listLine svg:hover {
+  color: #000;
+  cursor: pointer;
+}
